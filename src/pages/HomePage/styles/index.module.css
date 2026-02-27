@@ -1,0 +1,24 @@
+.wrapper{
+    display: grid;
+     grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-template-areas:
+    "navbar header header"
+    "navbar main main"
+    "navbar main main";  
+}
+
+.header {
+  grid-area: header;
+  background-color: red;
+}
+
+.main {
+  grid-area: main;
+  background-color: green;
+}
+
+.navbar {
+  grid-area: navbar;
+  background-color: blue; 
+}
