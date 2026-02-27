@@ -1,3 +1,9 @@
 export const HomePage = () => {
-    <div>Home</div>
+    <div className="wrapper">
+        <header>header</header>
+        <main>
+            <section>section</section>
+        </main>
+        <aside>sidebar</aside>
+    </div>
 }

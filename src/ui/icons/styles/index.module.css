@@ -1,0 +1,10 @@
+.logoIcon {
+  width: 24px;
+  height: auto;
+}
+
+@media (width <= 440px) {
+  .logoIcon {
+    width: 30px;
+  }
+}
