@@ -14,7 +14,6 @@ export const HomePage = () => {
             </div>
             <main className={styles.main}>
                 <Outlet/>
-                123
             </main>
             <div className={styles.navbar}>
                 <Navbar/>

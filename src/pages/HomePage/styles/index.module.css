@@ -2,8 +2,8 @@
     height: 100vh;
     
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: 224px 1fr 1fr;
     grid-template-areas:
     "navbar header header"
     "navbar main main"
